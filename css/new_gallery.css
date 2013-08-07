@@ -1,0 +1,63 @@
+@CHARSET "ISO-8859-1";
+h1{
+	font-size:1.5em;
+	padding:5px;
+}
+h3{
+	font-size:1.2em;
+	padding:5px;
+	
+}
+
+.formbox{
+	text-align:left;
+	width:90%;
+	background-color:grey;
+	padding: 15px;
+	margin:auto;
+}
+
+.notes{
+	float:right;
+	padding:10px;
+	border: 1px solid black;
+	max-width:35%;
+	
+}
+
+.line{
+	margin-top:35px;
+}
+
+.formpart{
+	float:left;
+}
+
+.formpart table td{
+	padding:5px;
+	
+}
+
+.error p{
+	color:red;
+	padding:10px;
+}
+
+.dropzone{
+	min-height:200px;
+	position:relative;
+	margin-top:15px;
+}
+
+.dz-message{
+	height:30px;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+
+	
+}
+

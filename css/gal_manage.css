@@ -1,0 +1,120 @@
+@CHARSET "ISO-8859-1";
+
+.gallery{
+	width:282px;
+	background:grey;
+	float:left;
+	margin: 4px;
+	padding:5px;
+	height:395px;
+	position:relative;
+}
+
+.sample_image{
+	float: left;
+	padding: 5px;
+	margin: 0 5px 10px 5px;
+	width: 100px;
+	height: 100px;
+	background:grey;
+	
+	display:table;
+	text-align:center;
+}
+
+.images{
+	margin:auto;
+	width:248px;
+}
+
+.table{
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.sample_image img{
+	margin:0;
+	
+}
+.header{
+	margin-bottom:5px;
+	background-color:#CFCBC8;
+	width:282px;
+	margin:-5px -5px;
+	
+	height:40px;
+	top:0;
+	left:0;
+	padding:5px;
+}
+.subtitle{
+	font-size:1.6em;
+}
+/*Buttons css*/
+.buttons{
+	margin-top:10px;
+}
+.buttons a{
+	text-decoration:none;
+	color:inherit;
+}
+.galbutton{
+	color: black;
+	background-color:#CFCBC8;
+	width:74px;
+	height:35px;
+	margin: 5px;
+	float:left;
+}
+
+.galbutton:hover{
+	color:black;
+	background:white;
+}
+
+.galbutton:active{
+	background:black;
+	color:white;
+}
+
+
+.optionbar{
+	height:2em;
+	margin-bottom:25px;
+	margin-top:20px;
+}
+.pricelist, .newgal{
+	margin-left:10px;
+}
+.pricelist{
+	padding:10px;
+	background:grey;
+	float:left;
+	color:white;
+	position:relative;
+}
+.pricelist:hover{
+	background:white;
+	color:black;
+}
+.pricelist a{
+	text-decoration:none;
+	color:inherit;
+}
+.newgal{
+	background-color:#24AD29;
+	max-width:10%;
+	float:left;
+	padding:10px;
+}
+.newgal:hover{
+	background-color:#2BCC31;
+}
+.newgal:active{
+	background-color:#24AD29;
+}
+.newgal a{
+	text-decoration:none;	
+	color:white;
+	
+}

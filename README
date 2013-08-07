@@ -1,0 +1,19 @@
+
+
+1. Install CodeIgniter
+	Download the latest version of CodeIgniter from http://ellislab.com/codeigniter, extract it, and put it in your webroot.
+	Edit the database.php and config.php in the application/config with the details of your server.
+	If you visit the page you should see CodeIgniter's welcome message.
+
+2. Copy Proof files into your CodeIgniter installation.
+
+3. Setup mod_rewrite and pretty URLs
+
+	Edit routes.php and set the default controller to 'Proofs'.
+	An example .htaccess has been provided, you will need to edit it to fit your exact installation requirements.
+	Specifically, you will need to edit the rewrite rule to reflect your installation folder.
+	Finally, ensure that the field 'index_page' is blank in config.php
+
+4. Setup proof
+
+	Run the contents of proof-schema.sql on your database of choice, then visit {webroot}/first_time_setup on your web browser.

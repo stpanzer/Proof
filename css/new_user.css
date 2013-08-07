@@ -1,0 +1,16 @@
+@CHARSET "ISO-8859-1";
+
+.inputbox{
+	padding:20px;
+	background:grey;
+	text-align:left;
+}
+
+.inputbox table td{
+	padding: 6px;
+	
+}
+.title{
+	padding:10px;
+	margin-bottom:5px;
+}

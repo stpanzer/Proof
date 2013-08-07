@@ -1,0 +1,54 @@
+@CHARSET "ISO-8859-1";
+
+.removesize, .addsize{
+	cursor:pointer;
+	
+}
+
+h1{
+	padding:10px;
+	font-size:1.5em;
+	
+}
+.sizes{
+	background:grey;
+	display:inline-block;
+}
+.sizes td{
+	padding:10px;
+	
+}
+
+.removesize{
+	padding:7px;
+	background-color:#C40000;
+	color:white;
+	
+}
+.removesize:hover{
+	background-color:#FF5252;
+}
+.removesize:active{
+	background-color:#C40000;
+}
+.addsize{
+	background-color:#24AD29;
+	color:white;
+	margin: 0 auto;		
+	width:100px;
+	
+	
+}
+.addsize:hover{
+	background-color:#2BCC31;
+}
+.addsize:active{
+	background-color:#24AD29;
+}
+.currency {
+    border: 1px inset #ccc;
+    background:white;
+}
+.currency input {
+    border: 0;
+}

@@ -1,0 +1,28 @@
+@CHARSET "ISO-8859-1";
+
+#grid li{
+	display:table;
+	width:125px;
+	height:100px;
+	float:left;
+	background:grey;
+	text-align:center;
+	margin: 5px 0px 5px 10px;
+}
+
+#grid img{
+	
+ 	max-width:85%;
+	max-height:100%;
+}
+
+.imgcontainer{
+	display:table-cell;
+	vertical-align:middle;
+	
+}
+
+.sortcontainer{
+	width:100%;
+	
+}

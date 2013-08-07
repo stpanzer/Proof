@@ -1,0 +1,90 @@
+@CHARSET "ISO-8859-1";
+
+.submitorder{
+	padding:10px;
+	background-color:#24AD29;
+	color:white;
+	width:200px;
+	margin: 0 auto;
+	cursor:pointer;
+	float:right;
+	
+}
+.submitorder:hover{
+	background-color:#2BCC31;
+}
+.submitorder:active{
+	background-color:#24AD29;
+}
+.goback{
+	display:block;
+	padding:10px;
+	background-color:#C40000;
+	color:white;
+	width:200px;
+	margin: 0 auto;
+	cursor:pointer;
+	float:left;
+	text-decoration:none;
+}
+.goback:hover{
+	background-color:#FF5252;
+}
+.goback:active{
+	background-color:#C40000;
+}
+
+.wrap{
+	min-width:80%;
+	
+	background:grey;
+	margin-bottom:5px;
+	display:inline-block;
+	padding:20px;
+}
+
+.buttons{
+	width:450px;
+	margin:auto;
+	clear:both;
+}
+
+.imgwrap a{
+	float:left;
+}
+.sizes{
+	float:right;
+	width:100%;
+}
+.imgwrap .sizes li{
+	padding:5px;
+
+}
+td{
+	vertical-align:middle;
+	padding:5px;
+}
+.last{
+	border-bottom:1px dotted lightgrey;
+}
+.sizes thead{
+	padding:8px;
+	border-bottom: 1px solid black;
+		
+}
+.sizes .first{
+	border-top:1px solid black;
+}
+.sizes img{
+	display:inline-block;
+	padding:10px;
+}
+
+.noborder{
+	border-bottom:none;
+}
+
+#total{
+	margin:10px;
+	float:right;
+}

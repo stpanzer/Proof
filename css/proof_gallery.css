@@ -1,0 +1,141 @@
+@CHARSET "ISO-8859-1";
+.hidden{
+	visbility:none;
+}
+.scrollButtons{
+	cursor:pointer;
+	
+}
+.submitButton{
+	padding:10px;
+	background-color:#24AD29;
+	color:white;
+	max-width:60%;
+	margin: 0 auto;
+	cursor:pointer;
+	
+}
+/* print sizes css */
+.sizes thead{
+	border-bottom: 2px solid black;
+	
+}
+.sizes td{
+	padding:4px;
+}
+.sizes{
+	width:100%;
+	
+}
+.sizeform{
+	text-align:left;
+	max-width:80%;
+	margin:5px auto;
+	padding:15px;
+	background:grey;
+	overflow:hidden;
+}
+
+.sizeline{
+	clear:both;
+}
+
+/*ajax css*/
+#ajaxindicator{
+	position:absolute;
+	top:0;
+	right:0;
+	left:0;
+	bottom:0;
+	margin:auto;
+	z-index:20;
+	
+}
+
+.hidden{
+	position:absolute;
+	visibility:hidden;
+	display:'block';
+	
+}
+.imgwrap{
+	margin:0 auto;
+}
+#imagefull{
+	padding:20px;
+	background:grey;
+	overflow:hidden;
+	max-width:522px;
+	min-width:200px;
+	min-height:100px;
+	border-radius:10px;
+	border:1px solid black;
+	position:relative;
+	margin:0 auto; 
+}
+
+#imagefull img{
+	max-width:480px;
+	max-height:800px;
+}
+#imagepane{
+	position:relative;
+	float:left;
+	width:522px;
+}
+/*css for thumbnail image grid*/
+.grid li a{
+	display:table-cell;
+	vertical-align:middle;
+}
+ul.grid {
+  padding: 0;
+  list-style: none;
+  margin: 20px auto 0;
+  width: 378px;  
+  background:grey;
+  }
+
+.grid li {
+  float: left;
+  padding: 5px;
+  margin: 0 5px 10px 5px;
+  width: 100px;
+  height: 100px;
+  background:grey;
+  border: 1px dotted #58595b;
+  display:table;
+  text-align:center;
+  } 
+  
+.grid li img {
+ margin: 0;
+  
+
+}
+
+.thumbnails{
+	float:left;
+	
+}
+
+
+
+/*CSS for scroll effect*/
+.panel{
+	float:left;
+	width:378px;
+	
+}
+.scroller{
+	width:9000px;
+	
+}
+.scrollable{
+	overflow:hidden;
+	width:378px;
+}
+
+h1{
+	font-size:1.8em;
+}
